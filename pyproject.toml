@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "modern_solvers"
+version = "0.1.0"
+description = ""
+authors = ["Purice Sabin <sabin.purice@orange.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+mkdocs = "^1.1"
+mkdocs-material = "^5.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

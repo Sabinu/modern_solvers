@@ -1,0 +1,22 @@
+site_name: Modern Solvers
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - attr_list
+  - pymdownx.arithmatex
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+nav:
+  - Intro: "index.md"
+  - Overview: "overview.md"
+  - "Depth First and Breadth First Search": "puzzle.md"
+  - "SAT Slovers": "einstein.md"
